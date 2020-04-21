@@ -1,0 +1,17 @@
+.nav-format {
+    margin-left: 2em;
+}
+hr {
+    max-width: 20%;
+    margin-left: 0;
+}
+
+.ui.list a {
+    color: black;
+    font-weight: bolder;
+}
+
+p {
+    color: black;
+    font-weight: bolder;
+}

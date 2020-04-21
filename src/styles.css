@@ -1,2 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+/* My own classes to modify content from */
+    .inline-orange {
+        color: coral;
+    }
 
+    .inline-grey {
+    color: grey;
+    }
+
+    .inline-smaller {
+        font-size: .85em;
+    }
+
+
+    

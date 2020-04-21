@@ -1,0 +1,48 @@
+/* nave-menu configurations */
+
+.logo-space {
+    margin-top: .4em;
+}
+.logo-name {
+    font-weight: bolder;
+    margin-top: .7em;
+    margin-right: 1em;
+    margin-left: -.8em;
+}
+
+.font-bold a {
+    font-weight: 900;
+    font-size: 1.25em;
+}
+
+.search-decor input {
+    background-color: whitesmoke;
+    color: darkgrey;
+    min-width: 250px;
+    margin-left: 3em;
+}
+
+.search-decor {
+    margin-right: -2em;
+}
+
+.btn-divide {
+    border-left-style: solid;
+    border-left-color: lightgrey;
+    border-left-width: 1px;
+    margin-left: 1em;
+    width: 80%;
+}
+
+.icon-decor {
+    padding-top: .25em;
+    font-size: larger;
+    padding-left: .6em;
+    color: grey;
+}
+
+hr {
+    max-width: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
