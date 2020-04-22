@@ -2,7 +2,7 @@
     margin-left: 2em;
 }
 hr {
-    max-width: 20%;
+    max-width: 100%;
     margin-left: 0;
 }
 
@@ -11,7 +11,13 @@ hr {
     font-weight: bolder;
 }
 
-p {
-    color: black;
-    font-weight: bolder;
+.show-more {
+    color: cornflowerblue;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.chek-space {
+    margin-bottom: .5em;
 }

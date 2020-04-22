@@ -8,8 +8,27 @@
     color: grey;
     }
 
+    .text-color {
+        color: 
+        gray;
+    }
+
     .inline-smaller {
         font-size: .85em;
+    }
+
+    .display-pad {
+        display: inline-flex;
+        margin: 2em;
+    } 
+
+    .inner-pad {
+        display: inline-flex;
+        margin-left: 1em;
+    } 
+
+    .centered {
+        align-self: center;
     }
 
 
