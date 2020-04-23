@@ -8,7 +8,7 @@ hr {
 }
 
 .ui.list {
-    font-size: 1.25em;
+    font-size: 1.2em;
 }
 
 .ui.list a {
@@ -27,7 +27,7 @@ hr {
     margin-bottom: .5em;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1475px) {
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
 
     .nav-format {
         width: 100%;

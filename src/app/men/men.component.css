@@ -32,10 +32,10 @@ div .content {
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 1475px) {
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
 
     .ui.card {
-        max-width: 100%;
+        max-width: 30%;
     }
     
 

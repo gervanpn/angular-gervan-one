@@ -1,18 +1,18 @@
 //"use strict";
 
-let isSidenavOpen = false;
+let isSmallmenuOpen = false;
 
-function openSidenav() {
-  if(!isSidenavOpen) {
-    document.getElementById("sidenav").classList.toggle("show-sidenav");
-    isSidenavOpen = true;
+function openSmallmenu() {
+  if(!isSmallmenuOpen) {
+    document.getElementById("smallmenu").classList.toggle("show-smallmenu");
+    isSmallmenuOpen = true;
   }
 }
 
-function closeSidenav() {
-  if(isSidenavOpen) {
-    document.getElementById("sidenav").classList.toggle("show-sidenav");
-    isSidenavOpen = false;
+function closeSmallmenu() {
+  if(isSmallmenuOpen) {
+    document.getElementById("smallmenu").classList.toggle("show-smallmenu");
+    isSmallmenuOpen = false;
   }
 }
 

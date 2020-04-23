@@ -8,26 +8,18 @@
           <h1 class="logo-name">Myntra</h1>
       </div> 
       <div class="smallmenu">  <!-- small screen menu -->
-        <h4 class="ui header small-icon">
-          <i class="bars icon"></i>
-          <div class="content">
-            <div class="">
-              <i class="dropd
-              own icon"></i>
-              <div class="toggle-menu">
-                <div class="link" routerLink="men">Men</div>
-                <div class="link" routerLink="women">Women</div>
-                <div class="link" routerLink="kids">Kids</div>
-                <div class="link" routerLink="home">Home & Living</div>
-              </div>
-            </div>
-          </div>
-        </h4>
+        <div id="smallmenu" onclick="closeSmallmenu()">
+          <div class="link" routerLink="men">Men</div>
+          <div class="link" routerLink="women">Women</div>
+          <div class="link" routerLink="kids">Kids</div>
+          <div class="link" routerLink="home">Home & Living</div>
+        </div>
       </div>
       <div class="largemenu">  <!-- large screen menu -->
         <a class="item" routerLink="men">Men</a>
         <a class="item" routerLink="women">Women</a>
         <a class="item" routerLink="kids">Kids</a>
+        
         <a class="item" routerLink="home">Home & Living</a>
       </div>
       <div class="right menu"> <!-- search field -->
