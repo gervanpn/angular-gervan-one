@@ -1,0 +1,61 @@
+/* Modified semantic ui elements */
+hr {
+    margin-right: 2em;
+}
+h3 {
+    margin: 0;
+}
+
+.menu {
+    margin-right: 2em;
+}
+
+.ui.card {
+    max-width: 20%;
+    margin: 14px 14px;
+    border-style: none;
+    box-shadow: none;
+}
+
+div .content {
+    border-color: white;
+}
+
+.ui.text.menu {
+    margin: 0;
+}
+
+.ui .right {
+    margin-right: 2em;
+    padding: 10px;
+    margin-bottom: .5em;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+
+    .ui.card {
+        max-width: 30%;
+    }
+    
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .ui.card {
+        max-width: 100%;
+        margin-left: 2em;
+    }
+
+    .ui .text {
+        display: none;
+    }
+
+    div .content {
+        font-size: 1.5em;
+        line-height: 1.1em;
+    }
+
+}
+

@@ -1,0 +1,48 @@
+<br>
+<div class="ui grid"> <!-- whole menu div-->
+    <div class="ui secondary menu font-bold">  <!-- Secondary menu -->
+      <div> <!-- logo -->
+        <img class="logo-space" src="assets/images/logo.png" alt="">
+      </div>
+      <div>  <!-- company name-->
+          <h1 class="logo-name">Myntra</h1>
+      </div> 
+      <div class="smallmenu">  <!-- small screen menu -->
+        <div id="smallmenu" onclick="closeSmallmenu()">
+          <div class="link" routerLink="men">Men</div>
+          <div class="link" routerLink="women">Women</div>
+          <div class="link" routerLink="kids">Kids</div>
+          <div class="link" routerLink="home">Home & Living</div>
+        </div>
+      </div>
+      <div class="largemenu">  <!-- large screen menu -->
+        <a class="item" routerLink="men">Men</a>
+        <a class="item" routerLink="women">Women</a>
+        <a class="item" routerLink="kids">Kids</a>
+        
+        <a class="item" routerLink="home">Home & Living</a>
+      </div>
+      <div class="right menu"> <!-- search field -->
+        <div class="item">
+          <div class="ui icon input search-decor searchmenu">
+            <input class="" type="text" placeholder="Search">
+            <i class="search-decor search link icon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="btn-divide">
+        <a class="ui item icon-decor">
+          <i class="user icon icon-decor"></i>
+        </a>
+      </div>
+      <div class="btn-divide"> 
+        <a class="ui item icon-decor">
+          <i class="shopping bag icon icon-decor"></i>
+        </a>
+      </div>
+    </div>  <!-- End of secondary menu -->
+</div> <!-- End of whole menu -->
+<br>
+<hr>
+<router-outlet></router-outlet>
+

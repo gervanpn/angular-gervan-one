@@ -1,2 +1,80 @@
 /* You can add global styles to this file, and also import other style files */
-@import './app/vendor/semantic.min.css';
+/* My own classes to modify content from */
+    .inline-orange {
+        color: coral;
+    }
+
+    .inline-grey {
+    color: grey;
+    }
+
+    .text-color {
+        color: 
+        gray;
+    }
+
+    .inline-smaller {
+        font-size: .85em;
+    }
+
+    .display-pad {
+        display: inline-flex;
+        margin: 2em;
+    } 
+
+    .inner-pad {
+        display: inline-flex;
+        margin-left: 1em;
+    } 
+
+    .centered {
+        align-self: center;
+    }
+
+/* Modified semantic ui elements */
+hr {
+    margin-right: 2em;
+}
+h3 {
+    margin: 0;
+}
+
+.menu {
+    margin-right: 2em;
+}
+
+.ui.card {
+    max-width: 20%;
+}
+
+.ui.text.menu {
+    margin: 0;
+}
+
+.ui .right {
+    margin-right: 2em;
+    padding: 10px;
+    margin-bottom: .5em;
+}
+
+/* Custom element additions */
+
+.sort-decor {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    width: 125px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1475px) {
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .inline-grey {
+        font-size: 1.25em;
+    }
+}

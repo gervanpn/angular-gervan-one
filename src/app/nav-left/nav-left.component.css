@@ -1,0 +1,49 @@
+.nav-format {
+    margin-left: 2em;
+}
+
+hr {
+    max-width: 100%;
+    margin-left: 0;
+}
+
+.ui.list {
+    font-size: 1.2em;
+}
+
+.ui.list a {
+    color: black;
+    font-weight: bolder;
+}
+
+.show-more {
+    color: cornflowerblue;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.chek-space {
+    margin-bottom: .5em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+
+    .nav-format {
+        width: 100%;
+        margin-left: 2em;
+
+    }
+    
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .container {
+        justify-content: center;
+    }
+    .ui.list {
+        font-size: 1.5em;
+    }
+}
