@@ -1,46 +1,67 @@
+<!-- <div class="ui menu">
+  <div class="header logo-space">
+    <img class="" src="assets/images/logo.png" alt="">
+    <h1 class="logo-name-two">Myntra</h1>
+  </div>
+  <a class="item">Men</a>
+  <a class="item">Women</a>
+  <a class="item">Kids</a>
+  <a class="item">Home & Living</a>
+</div>
+<br><br> -->
 <br>
-<div class="ui grid column"> <!-- whole menu div-->
-    <div></div>
-    <div> <!-- logo and name-->
+<div class="ui grid"> <!-- whole menu div-->
+    <div class="ui secondary menu font-bold">  <!-- Secondary menu -->
+      <div> <!-- logo -->
         <img class="logo-space" src="assets/images/logo.png" alt="">
-    </div>
-    <div>   
-        <h1 class="logo-name">Myntra</h1>
-    </div>
-    <div class="ui secondary menu font-bold"> <!-- menu with search-->
-        <a class="item" href="app/men/men-component.html">
-          Men
-        </a>
-        <a class="item" href="app/women/women-component.html">
-          Women
-        </a>
-        <a class="item" href="app/kids/kids-component.html">
-          Kids
-        </a>
-        <a class="item" href="app/home/home-component.html">
-          Home & Living
-        </a>
-        <div class="right menu">
-          <div class="item">
-            <div class="ui icon input search-decor">
-              <input class="" type="text" placeholder="Search">
-              <i class="search-decor search link icon"></i>
+      </div>
+      <div>  <!-- company name-->
+          <h1 class="logo-name">Myntra</h1>
+      </div> 
+      <div class="smallmenu">  <!-- small screen menu -->
+        <h4 class="ui header small-icon">
+          <i class="bars icon"></i>
+          <div class="content">
+            <div class="">
+              <i class="dropd
+              own icon"></i>
+              <div class="toggle-menu">
+                <div class="link" routerLink="men">Men</div>
+                <div class="link" routerLink="women">Women</div>
+                <div class="link" routerLink="kids">Kids</div>
+                <div class="link" routerLink="home">Home & Living</div>
+              </div>
             </div>
           </div>
-          <div class="btn-divide">
-            <a class="ui item icon-decor">
-                <i class="user icon icon-decor"></i>
-              </a>
-            </div>
-            <div class="btn-divide"> 
-              <a class="ui item icon-decor">
-                <i class="shopping bag icon icon-decor"></i>
-              </a>
+        </h4>
+      </div>
+      <div class="largemenu">  <!-- large screen menu -->
+        <a class="item" routerLink="men">Men</a>
+        <a class="item" routerLink="women">Women</a>
+        <a class="item" routerLink="kids">Kids</a>
+        <a class="item" routerLink="home">Home & Living</a>
+      </div>
+      <div class="right menu"> <!-- search field -->
+        <div class="item">
+          <div class="ui icon input search-decor searchmenu">
+            <input class="" type="text" placeholder="Search">
+            <i class="search-decor search link icon"></i>
           </div>
         </div>
       </div>
-</div>
+      <div class="btn-divide">
+        <a class="ui item icon-decor">
+          <i class="user icon icon-decor"></i>
+        </a>
+      </div>
+      <div class="btn-divide"> 
+        <a class="ui item icon-decor">
+          <i class="shopping bag icon icon-decor"></i>
+        </a>
+      </div>
+    </div>  <!-- End of secondary menu -->
+</div> <!-- End of whole menu -->
 <br>
 <hr>
-
+<router-outlet></router-outlet>
 

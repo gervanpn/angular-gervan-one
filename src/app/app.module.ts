@@ -14,11 +14,11 @@ import { NavLeftComponent } from './nav-left/nav-left.component';
   declarations: [
     AppComponent,
     NavMenuComponent,
+    NavLeftComponent,
     MenComponent,
     WomenComponent,
     KidsComponent,
-    HomeComponent,
-    NavLeftComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,

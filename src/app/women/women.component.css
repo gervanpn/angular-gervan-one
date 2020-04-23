@@ -1,0 +1,34 @@
+/* Modified semantic ui elements */
+hr {
+    margin-right: 2em;
+}
+h3 {
+    margin: 0;
+}
+
+.menu {
+    margin-right: 2em;
+}
+
+.ui.card {
+    max-width: 20%;
+}
+
+.ui.text.menu {
+    margin: 0;
+}
+
+.ui .right {
+    margin-right: 2em;
+    padding: 10px;
+    margin-bottom: .5em;
+}
+
+/* Custom element additions */
+
+.sort-decor {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    width: 125px;
+}

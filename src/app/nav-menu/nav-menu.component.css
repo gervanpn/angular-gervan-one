@@ -1,13 +1,28 @@
-/* nave-menu configurations */
+/* nave-menu configurations standard size */
 
+.smallmenu {
+    display: none;
+}
 .logo-space {
+    display: flex;
     margin-top: .4em;
+    margin-left: 2em;
+}
+
+hr {
+    max-width: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 .logo-name {
     font-weight: bolder;
     margin-top: .7em;
     margin-right: 1em;
-    margin-left: -.8em;
+    margin-left: .25em;
+}
+
+.largemenu {
+    display: flex;
 }
 
 .font-bold a {
@@ -18,8 +33,8 @@
 .search-decor input {
     background-color: whitesmoke;
     color: darkgrey;
-    min-width: 250px;
-    margin-left: 3em;
+    min-width: 200px;
+    margin-left: 4em;
 }
 
 .search-decor {
@@ -31,18 +46,54 @@
     border-left-color: lightgrey;
     border-left-width: 1px;
     margin-left: 1em;
-    width: 80%;
+    margin-right: -1em;
 }
 
 .icon-decor {
-    padding-top: .25em;
-    font-size: larger;
-    padding-left: .6em;
+    padding-top: .5em;
+    font-size: large;
+    padding-left: .25em;
     color: grey;
 }
 
-hr {
-    max-width: 100%;
-    margin-left: 2em;
-    margin-right: 2em;
+@media only screen and (min-width: 568px) and (max-width: 1200px) {
+
+    .largemenu {
+        display: none;
+    }
+
+    .smallmenu {
+        display: block;
+        cursor: pointer;
+    }
+    .small-icon {
+        margin-left: 3em;
+        padding-top: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+
+    .largemenu {
+        display: none;
+    }
+
+    .smallmenu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .small-icon {
+        margin-left: 3em;
+        padding-top: 1.5em;
+    }
+
+    .searchmenu {
+        display: none;
+    }
+
+    .logo-name {
+        display: none;
+    }
+
 }
