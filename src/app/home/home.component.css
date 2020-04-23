@@ -12,6 +12,13 @@ h3 {
 
 .ui.card {
     max-width: 20%;
+    margin: 14px 14px;
+    border-style: none;
+    box-shadow: none;
+}
+
+div .content {
+    border-color: white;
 }
 
 .ui.text.menu {
@@ -24,11 +31,31 @@ h3 {
     margin-bottom: .5em;
 }
 
-/* Custom element additions */
 
-.sort-decor {
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightgrey;
-    width: 125px;
+@media only screen and (min-width: 768px) and (max-width: 1475px) {
+
+    .ui.card {
+        max-width: 100%;
+    }
+    
+
 }
+
+@media only screen and (max-width: 767px) {
+
+    .ui.card {
+        max-width: 100%;
+        margin-left: 2em;
+    }
+
+    .ui .text {
+        display: none;
+    }
+
+    div .content {
+        font-size: 1.5em;
+        line-height: 1.1em;
+    }
+
+}
+
